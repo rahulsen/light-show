@@ -69,7 +69,7 @@ A custom show can be run on a supported vehicle by loading it via a USB flash dr
 
     <img src="/images/xlights_layout.png?raw=true" width="950" />
 
-10. Note that the official Tesla Model S .xmodel file includes the superset of lights and closures that are needed for all supported vehicles, and should be used to generate shows for all vehicle types. See [light locations](#light_locations) for information about where the lights are on each vehicle.
+10. Note that the official Tesla Model S .xmodel file includes the superset of lights and closures that are needed for all supported vehicles, and should be used to generate shows for all vehicle types. See [light channel locations](#light-channel-locations) for information about where the lights are on each vehicle.
 
 ## Opening the example sequence
 An example sequence is provided that can be run on the vehicle and/or opened in xLights. These instructions cover how to open it in xLights.
@@ -256,7 +256,7 @@ To command a closure to move in a particular manner, add an 'On' effect and adju
 
         <img src="/images/ord_channel_not_ok.png?raw=true" width="900" />
 
-    - This example will cause the Aux Park lights to flash on Model 3/Y:
+    - This example will cause the Aux Park lights to flash on Model 3/Y (note the blank time between each box compared to the other example):
 
         <img src="/images/ord_channel_ok.png?raw=true" width="900" />
 
